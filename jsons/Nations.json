@@ -145,39 +145,40 @@
         "uniqueName": "xxx",
         "uniques": ["[+1 Food, +2 Production, +1 Gold] from every [Mountain]"],
         "cities": [
-            "Palermo","Messina","Catania","Ragusa","Trapani","Cagliari","Iglesias","Sassari","Oristano","Torres"
+        	"Napoli","Palermo","Messina","Catania","Ragusa","Trapani","Cagliari","Iglesias","Sassari","Oristano","Torres",
+		"Capua","Salerno","Foggia","Brindisi","Otranto","Catanzaro","L'Aquila","Chieti","Taranto","Cosenza","Potenza"
         ],
         "spyNames": [
             "Rodrigo","Esmeralda","Leon","Mathilda","Ramona","Señor X","Topolino","Serpiente","Garcia","El Lobo"
         ]
     },
-    {
-        "name": "Regno di Napoli",
-        "leaderName": "Alfonso V d'Aragona",
-        "adjective": ["xxx"],
-        "startBias": ["Coast"],
-        "preferredVictoryType": "Domination",
-        "startIntroPart1": "xxx",
-        "startIntroPart2": "xxx",
-        "declaringWar": "The angels's trumpet has blown! The holy blades of my soldiers shall be your demise!",
-        "attacked": "You wish to disturb our peace? Then come, let's see if you have the will to destroy my kingdom!",
-        "defeated": "Has God decided to forsaken us?",
-        "introduction": "Do you serve the same God as I do? Or are you just another heretic?",
-        "neutralHello": "Greetings.",
-        "hateHello": "What do you want?",
-        "tradeRequest": "Perhaps we should exchange resources, for the better of our kingdoms.",
-        "outerColor": [45, 36, 95],
-        "innerColor": [223, 199, 143],
-        "uniqueName": "xxx",
-        "uniques": ["[+1 Food, +2 Production, +1 Gold] from every [Mountain]"],
-        "cities": [
-            "Napoli","Capua","Salerno","Foggia","Brindisi","Otranto","Catanzaro","L'Aquila","Chieti","Taranto",
-            "Cosenza","Potenza"
-        ],
-        "spyNames": [
-            "Rodrigo","Esmeralda","Leon","Mathilda","Ramona","Señor X","Topolino","Serpiente","Garcia","El Lobo"
-        ]
-    },
+//    {
+//        "name": "Regno di Napoli",
+//        "leaderName": "Alfonso V d'Aragona",
+//        "adjective": ["xxx"],
+//        "startBias": ["Coast"],
+//        "preferredVictoryType": "Domination",
+//        "startIntroPart1": "xxx",
+//        "startIntroPart2": "xxx",
+//        "declaringWar": "The angels's trumpet has blown! The holy blades of my soldiers shall be your demise!",
+//        "attacked": "You wish to disturb our peace? Then come, let's see if you have the will to destroy my kingdom!",
+//        "defeated": "Has God decided to forsaken us?",
+//        "introduction": "Do you serve the same God as I do? Or are you just another heretic?",
+//        "neutralHello": "Greetings.",
+//        "hateHello": "What do you want?",
+//        "tradeRequest": "Perhaps we should exchange resources, for the better of our kingdoms.",
+//        "outerColor": [45, 36, 95],
+//        "innerColor": [223, 199, 143],
+//        "uniqueName": "xxx",
+//        "uniques": ["[+1 Food, +2 Production, +1 Gold] from every [Mountain]"],
+//        "cities": [
+//            "Napoli","Capua","Salerno","Foggia","Brindisi","Otranto","Catanzaro","L'Aquila","Chieti","Taranto",
+//            "Cosenza","Potenza"
+//        ],
+//        "spyNames": [
+//            "Rodrigo","Esmeralda","Leon","Mathilda","Ramona","Señor X","Topolino","Serpiente","Garcia","El Lobo"
+//        ]
+//    },
     {
         "name": "Repubblica di Firenze",
         "leaderName": "Henry Parker",
