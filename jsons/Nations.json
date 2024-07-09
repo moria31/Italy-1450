@@ -233,6 +233,7 @@
             "[+1 Culture, +1 Food, +1 Gold] from every [Great Improvement]",
             "Gain a free [Courthouse] [in annexed cities] <in cities following our religion>",
             "Gain a free [Courthouse] [in puppeted cities] <in cities following our religion>"
+			"Free [Great Prophet] appears"
         ],
         "cities": [
             "Vatican City","Benevento","Pontecorvo","San Marino","Terracina","Narni","Spoleto","Assisi","Arpino","Perugia",
