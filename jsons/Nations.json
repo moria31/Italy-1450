@@ -284,7 +284,7 @@
         "attacked": "Very well, we will kick you back to the ancient era!",
         "defeated": "This isn't how it is supposed to be!",
         "outerColor": [0, 0, 0],
-        "innerColor": [128, 179, 255],
+        "innerColor": [255, 255, 43],
         "uniques": [],
         "cities": ["Vienna"]
     },
@@ -296,7 +296,7 @@
         "attacked": "Very well, we will kick you back to the ancient era!",
         "defeated": "This isn't how it is supposed to be!",
         "outerColor": [0, 0, 0],
-        "innerColor": [255, 217, 143],
+        "innerColor": [255, 255, 43],
         "uniques": [],
         "cities": ["Sarajevo"]
     },
@@ -308,7 +308,7 @@
         "attacked": "Very well, we will kick you back to the ancient era!",
         "defeated": "This isn't how it is supposed to be!",
         "outerColor": [0, 0, 0],
-        "innerColor": [230, 166, 82],
+        "innerColor": [179, 179, 179],
         "uniques": [],
         "cities": ["Ragusa"]
     },
@@ -320,7 +320,7 @@
         "attacked": "Very well, we will kick you back to the ancient era!",
         "defeated": "This isn't how it is supposed to be!",
         "outerColor": [0, 0, 0],
-        "innerColor": [255, 255, 43],
+        "innerColor": [0,163,181],
         "uniques": [],
         "cities": ["Tunisi"]
     },
@@ -344,7 +344,7 @@
         "attacked": "Very well, we will kick you back to the ancient era!",
         "defeated": "This isn't how it is supposed to be!",
         "outerColor": [0, 0, 0],
-        "innerColor": [255, 255, 43],
+        "innerColor": [196, 87, 255],
         "uniques": [],
         "cities": ["Trento"]
     },
@@ -356,7 +356,7 @@
         "attacked": "Very well, we will kick you back to the ancient era!",
         "defeated": "This isn't how it is supposed to be!",
         "outerColor": [0, 0, 0],
-        "innerColor": [255, 255, 43],
+        "innerColor": [179, 179, 179],
         "uniques": [],
         "cities": ["Mantova"]
     },
@@ -380,7 +380,7 @@
         "attacked": "Very well, we will kick you back to the ancient era!",
         "defeated": "This isn't how it is supposed to be!",
         "outerColor": [0, 0, 0],
-        "innerColor": [255, 255, 43],
+        "innerColor": [179, 179, 179],
         "uniques": [],
         "cities": ["Siena"]
     },
@@ -392,7 +392,7 @@
         "attacked": "Very well, we will kick you back to the ancient era!",
         "defeated": "This isn't how it is supposed to be!",
         "outerColor": [0, 0, 0],
-        "innerColor": [255, 255, 43],
+        "innerColor": [179, 179, 179],
         "uniques": [],
         "cities": ["Piombino"]
     },
