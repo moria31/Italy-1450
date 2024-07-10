@@ -11,13 +11,13 @@
 
         // Alternatively, we could approximate this with "[+15]% Production when constructing [All] wonders [in cities following this religion] <during the [Ancient era]>"
     },
-    {
-        "name": "Ancestor Worship",
-        "type": "Pantheon",
-        "uniques": [
-            "[+2 Culture] from every [Shrine]"
-        ]
-    },
+//    {
+//        "name": "Ancestor Worship",
+//        "type": "Pantheon",
+//        "uniques": [
+//            "[+2 Culture] from every [Shrine]"
+//        ]
+//    },
     {
         "name": "Dance of the Aurora",
         "type": "Pantheon",
@@ -261,11 +261,11 @@
             "[+1 Faith, +2 Gold] from every [Jade]"
         ]
     },
-    {
-        "name": "Vision Quests",
-        "type": "Pantheon",
-        "uniques": ["[+1 Gold, +1 Happiness] from every [Shrine]"]
-    },
+//    {
+//        "name": "Vision Quests",
+//        "type": "Pantheon",
+//        "uniques": ["[+1 Gold, +1 Happiness] from every [Shrine]"]
+//    },
     {
         "name": "Work Spirituals",
         "type": "Pantheon",
@@ -370,7 +370,7 @@
     {
         "name": "Choral Music",
         "type": "Follower",
-        "uniques": ["[+3 Culture] from every [Temple]"]
+        "uniques": ["[+3 Culture] from every [Church]"]
     },
     {
         "name": "Devoted Elite",
@@ -395,8 +395,8 @@
         "name": "Feed the World",
         "type": "Follower",
         "uniques": [
-            "[+1 Food] from every [Shrine]",
-            "[+2 Food] from every [Temple]"
+            //"[+1 Food] from every [Shrine]",
+            "[+2 Food] from every [Church]"
         ]
     },
     {
@@ -465,7 +465,7 @@
     {
         "name": "Religious Center",
         "type": "Follower",
-        "uniques": ["[+1 Happiness, +1 Production, +1 Gold] from every [Temple]"]
+        "uniques": ["[+1 Happiness, +1 Production, +1 Gold] from every [Church]"]
     },
     {
         "name": "Religious Community",
