@@ -300,7 +300,7 @@
             "[+1 Food] from [Wheat] tiles [in this city]",
             "[+1 Food] from [Maize] tiles [in this city]"
         ],
-        //"requiredTech": "Pottery"
+        "requiredTech": "Pottery"
     },
 //    {
 //        "name": "Khambar",
@@ -397,7 +397,7 @@
             "[+1 Production] from [Obsidian] tiles [in this city]",
             "[+1 Production] from [Marble] tiles [in this city]"
         ],
-        //"requiredTech": "Calendar"
+        "requiredTech": "Calendar"
     },
 //    {
 //        "name": "Kyawwat",
@@ -507,7 +507,7 @@
         "culture": 1,
         "greatPersonPoints": {"Great Scientist": 1},
         "isWonder": true,
-        //"requiredTech": "Writing",
+        "requiredTech": "Writing",
         "uniques": [
             "Free Technology",
             "Gain a free [Library] [in this city]",
@@ -546,7 +546,7 @@
         "requiredNearbyImprovedResources": ["Ivory","Truffles","Furs","Horses"],
         "happiness": 2,
         "hurryCostModifier": 25,
-        //"requiredTech": "Trapping"
+        "requiredTech": "Trapping"
     },
 //    {
 //        "name": "Plaza de Toros",
@@ -587,7 +587,7 @@
         "cityStrength": 5,
         "cityHealth": 50,
         "hurryCostModifier": 25,
-        //"requiredTech": "Masonry",
+        "requiredTech": "Masonry",
         "uniques": ["Destroyed when the city is captured"]
     },
 //    {
@@ -677,7 +677,7 @@
             "New [Military] units start with [15] Experience [in this city]",
             "Destroyed when the city is captured"
         ],
-        //"requiredTech": "Bronze Working"
+        "requiredTech": "Bronze Working"
     },
 //    {
 //        "name": "Dojo",
@@ -747,7 +747,7 @@
             "[+1 Food] from [Fish] tiles [in this city]",
             "[+1 Production] from [Water resource] tiles [in this city]"
         ],
-        //"requiredTech": "Optics"
+        "requiredTech": "Optics"
     },
 //    {
 //        "name": "Cothon",
@@ -780,7 +780,7 @@
             "Gain a free [Lighthouse] [in this city]",
             "Free [Quinquereme] appears"
         ],
-        //"requiredTech": "Optics",
+        "requiredTech": "Optics",
         "quote": "'They that go down to the sea in ships, that do business in great waters; these see the works of the Lord, and his wonders in the deep.' - The Bible, Psalms 107:23-24"
     },
     {
@@ -789,7 +789,7 @@
         "hurryCostModifier": 25,
         "gold": 2,
         "uniques": ["[+2 Gold] from [Land Trade Route (Gold)] tiles [in this city]"],
-        //"requiredTech": "Horseback Riding"
+        "requiredTech": "Horseback Riding"
     },
 //    {
 //        "name": "Yam Route",
@@ -824,7 +824,7 @@
             "[+1 Production] from [Horses] tiles [in this city]",
             "[+1 Production] from [Sheep] tiles [in this city]"
         ],
-        //"requiredTech": "Horseback Riding"
+        "requiredTech": "Horseback Riding"
     },
 //    {
 //        "name": "Ocupada Estable",
@@ -882,7 +882,7 @@
             "Only available <if [Colosseum] is constructed in all [non-[Puppeted]] cities>",
             "Cost increases by [30] per owned city"
         ],
-        //"requiredTech": "Horseback Riding"
+        "requiredTech": "Horseback Riding"
     },
     {
         "name": "Courthouse",
@@ -892,7 +892,7 @@
             "Remove extra unhappiness from annexed cities",
             "Can only be built <in [Annexed] cities>"
         ],
-        //"requiredTech": "Mathematics"
+        "requiredTech": "Mathematics"
     },
 //    {
 //        "name": "Outremer",
@@ -926,7 +926,7 @@
         "maintenance": 1,
         "happiness": 2,
         "hurryCostModifier": 25,
-        //"requiredTech": "Construction"
+        "requiredTech": "Construction"
     },
 //    {
 //        "name": "Mead Hall",
@@ -971,7 +971,7 @@
         //"requiredBuilding": "Shrine",
         "maintenance": 2,
         "hurryCostModifier": 25,
-        //"requiredTech": "Philosophy"
+        "requiredTech": "Philosophy"
     },
 //    {
 //        "name": "Burial Tomb",
@@ -1057,7 +1057,7 @@
             "Only available <if [Library] is constructed in all [non-[Puppeted]] cities>",
             "Cost increases by [30] per owned city"
         ],
-        //"requiredTech": "Philosophy"
+        "requiredTech": "Philosophy"
     },
 //    {
 //        "name": "The Oracle",
@@ -1095,7 +1095,7 @@
             "Destroyed when the city is captured",
             "Comment [Has 1 Great Work of Writing Slot]"
         ],
-        //"requiredTech": "Drama and Poetry"
+        "requiredTech": "Drama and Poetry"
     },
     {
         "name": "Amphitheater Great Writing Slot",
@@ -1199,7 +1199,7 @@
             "Cost increases by [30] per owned city",
             "Comment [Has 1 Great Work of Writing Slot]"
         ],
-        //"requiredTech": "Drama and Poetry"
+        "requiredTech": "Drama and Poetry"
     },
     {
         "name": "National Epic Great Writing Slot",
@@ -1237,7 +1237,7 @@
         "greatPersonPoints": {"Great Writer": 1},
         "specialistSlots": {"Writer": 2},
         "isNationalWonder": true,
-        //"requiredTech": "Drama and Poetry"
+        "requiredTech": "Drama and Poetry"
     },
 //    {
 //        "name": "Parthenon",
@@ -1272,7 +1272,7 @@
             "[+1 Gold] from [Land Trade Route (Gold)] tiles [in this city]",
             "[+1 Gold] from [Sea Trade Route (Gold)] tiles [in this city]"
         ],
-        //"requiredTech": "Currency"
+        "requiredTech": "Currency"
     },
 //    {
 //        "name": "Bazaar",
@@ -1316,7 +1316,7 @@
             "[+2 Gold] from [Silver] tiles [in this city]",
             "[+2 Gold] from [Copper] tiles [in this city]"
         ],
-        //"requiredTech": "Currency"
+        "requiredTech": "Currency"
     },
 //    {
 //        "name": "Silversmith",
@@ -1353,7 +1353,7 @@
         "maintenance": 1,
         "hurryCostModifier": 0,
         "uniques": ["[40]% Food is carried over after population increases [in this city]"],
-        //"requiredTech": "Engineering"
+        "requiredTech": "Engineering"
     },
 //    {
 //        "name": "Great Wall",
@@ -1378,7 +1378,7 @@
             "Cost increases by [30] per owned city",
             "Comment [Has 1 Great Work of Writing Slot]"
         ],
-        //"requiredTech": "Iron Working"
+        "requiredTech": "Iron Working"
     },
     {
         "name": "Heroic Epic Great Writing Slot",
@@ -1567,7 +1567,7 @@
             "[+4 Gold] from [Land Trade Route (Gold)] tiles [in this city]",
             "[+4 Gold] from [Sea Trade Route (Gold)] tiles [in this city]"
         ],
-        //"requiredTech": "Currency"
+        "requiredTech": "Currency"
     },
     {
         "name": "Artist Guild",
