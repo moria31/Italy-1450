@@ -6,8 +6,8 @@
     },
     //nations
     {
-        "name": "Ducato di Savoia",
-        "leaderName": "Ludovico",
+        "name": "Duchy of Savoy",
+        "leaderName": "Duke Amedeo VIII",
         "adjective": ["Savoyard"],
         "startBias": ["Avoid [Coast]"],
         "preferredVictoryType": "Diplomatic",
@@ -29,7 +29,7 @@
             "[+15]% Strength <for [Land] units> <vs cities>"
         ],
         "cities": [
-            "Torino","Nizza","Aosta","Cuneo","Ivrea","Biella","Vercelli",
+            "Chambéry","Torino","Nizza","Aosta","Cuneo","Ivrea","Biella","Vercelli",
             "Asti","Alba","Pinerolo","Chieri","Savigliano","Saluzzo"
         ],
         "spyNames": [
@@ -37,8 +37,8 @@
         ]
     },
     {
-        "name": "Repubblica di Genova",
-        "leaderName": "Pietro Fregoso",
+        "name": "Republic of Genoa",
+        "leaderName": "Doge Pietro Fregoso",
         "adjective": ["Genoan"],
         "startBias": ["Coast"],
 //        "preferredVictoryType": "Diplomatic",
@@ -67,8 +67,8 @@
         ]
     },
     {
-        "name": "Ducato di Milano",
-        "leaderName": "Francesco Sforza",
+        "name": "Duchy of Milan",
+        "leaderName": "Duke Francesco Sforza",
         "adjective": ["Milanese"],
         "startBias": ["Avoid [Coast]"],
         "preferredVictoryType": "Diplomatic",
@@ -97,9 +97,9 @@
         ]
     },
     {
-        "name": "Domini Estensi",
-        "leaderName": "Borso d'Este",
-        "adjective": ["xxx"],
+        "name": "House of Este",
+        "leaderName": "Duke Borso d'Este",
+        "adjective": ["Estense"],
         "startBias": ["Avoid [Hill]"],
         "preferredVictoryType": "Cultural",
         "startIntroPart1": "xxx",
@@ -126,9 +126,9 @@
         ]
     },
     {
-        "name": "Regno d'Aragona",
-        "leaderName": "Alfonso V d'Aragona",
-        "adjective": ["xxx"],
+        "name": "Kingdom of Aragon",
+        "leaderName": "King Alfonso V",
+        "adjective": ["Aragonese"],
         "startBias": ["Coast"],
         "preferredVictoryType": "Domination",
         "startIntroPart1": "xxx",
@@ -180,17 +180,17 @@
 //        ]
 //    },
     {
-        "name": "Repubblica di Firenze",
-        "leaderName": "Henry Parker",
-        "adjective": ["Australian"],
-        "startBias": ["Coast"],
+        "name": "Republic of Florence",
+        "leaderName": "Lord Cosimo de' Medici",
+        "adjective": ["Florentine"],
+        "startBias": ["Avoid [Coast]"],
         "preferredVictoryType": "Cultural",
-        "startIntroPart1": "Greetings, most wise and prudent Henry Parker, father of the Australian Federation. Australia truly is a unique and ancient land, more so than any other, for its lands abound in nature's gifts and its shores have beckoned, welcomed, and harbored immigrants from afar for over 50,000 years. By the time you arrived in Sydney as an English immigrant in 1839, Australia was divided into thriving British colonies of undeniably vital significance. By 1889, as premier you had led the colony of New South Wales five times to achieve many great things that undoubtedly improved the lives of many. You will always be remembered, however, in the hearts of Australians, for being instrumental in the process of federating the Australian colonies into a single united nation, earning you the humble title of \"The father of the Australian Federation\". Thanks to your efforts, Australia today remains one of the most wealthy, prosperous, and modern countries in the developed world, and truly a sight to behold.",
-        "startIntroPart2": "O Henry Parker, your people call for you in joyful strains once more. Will you make the rest the world hear the thunder of Australia? Will you build a civilization that stands the test of time?",
-        "declaringWar": "The Commonwealth of Australia formally declare war on you!",
-        "attacked": "Australia will not sit idly, we shall defend our homeland 'till our dying breath!",
-        "defeated": "I die happily, knowing that Australia was once a proud and mighty nation far exceeding the ideals of your unequivocally barbaric ways.",
-        "introduction": "The Commonwealth Of Australia greets you, fellow nation. I am Prime Minister Henry Parker and I look forward to cooperate with you!",
+        "startIntroPart1": "xxx",
+        "startIntroPart2": "xxx",
+        "declaringWar": "xxx",
+        "attacked": "xxx will not sit idly, we shall defend our homeland 'till our dying breath!",
+        "defeated": "I die happily, knowing that xxx was once a proud and mighty nation far exceeding the ideals of your unequivocally barbaric ways.",
+        "introduction": "xxx greets you, fellow nation. I am Prime Minister Henry Parker and I look forward to cooperate with you!",
         "neutralHello": "Welcome, dear friend.",
         "hateHello": "Step forward, vile barbarian.",
         "tradeRequest": "Will you accept this deal?",
@@ -203,17 +203,16 @@
             "Gain [10] [Faith] <upon discovering a Natural Wonder>"
         ],
         "cities": [
-            "Canberra","Sydney","Melbourne","Brisbane","Gold Coast","Adelaide","Perth","Newcastle","Sunshine Coast","Wollongong",
-            "Hobart","Geelong","Cairns","Darwin","Toowoomba","Albury","Queanbeyan","Rockhampton","Bunbury","Bundaberg",
-            "Wagga Wagga","Bendigo","Ballarat","Mittagong"
+            "Florence","Pisa","Livorno","Pistoia","Prato","Arezzo","Cortona","Borgo San Sepolcro","San Gimignano","San Miniato",
+            "Pietrasanta","Volterra","Montalcino","Montepulciano","Colle di Val d'Elsa"
         ],
         "spyNames": [
-            "Metztli","Xitllali","Chimalli","Quauhtli","Teyacapan","Yaotl","Coatl","Huitzilin","Itzli","Tepin"
+            "Cosimo","Ferdinando","Gastone","Francesco","Pietro","Leopoldo","Lorenzo","Piero","Stefano","Enrico"
         ]
     },
     {
         "name": "Papal State",
-        "leaderName": "Urban II",
+        "leaderName": "Pope Nicholas V",
         "adjective": ["Vatican"],
         "startBias": ["Avoid [Coast]"],
         "preferredVictoryType": "Diplomatic",
@@ -245,17 +244,17 @@
         ]
     },
     {
-        "name": "Repubblica di Venezia",
-        "leaderName": "Enrico Dandolo",
+        "name": "Republic of Venice",
+        "leaderName": "Doge Francesco Foscari",
         "adjective": ["Venetian"],
         "startBias": ["Coast"],
 //		"preferredVictoryType": "Diplomatic",
-        "startIntroPart1": "Greetings, most astute Doge Enrico Dandolo of Venice, master of statecraft and shrewd negotiator. Although you rose to power late in life, old age did little to slow your cunning or ambition, as you deftly managed the bustling commercial center of Venice during a time of great instability. In aligning yourself with the Fourth Crusade, you carefully gained a strategic advantage and used the Crusaders to reacquire lost territory for Venice. Your role in guiding the Crusaders during the sacking of Constantinople led to an even greater expansion of your power, and secured your legacy throughout history.",
+        "startIntroPart1": "Greetings, most astute Doge Francesco Foscari of Venice, master of statecraft and shrewd negotiator. Although you rose to power late in life, old age did little to slow your cunning or ambition, as you deftly managed the bustling commercial center of Venice during a time of great instability. In aligning yourself with the Fourth Crusade, you carefully gained a strategic advantage and used the Crusaders to reacquire lost territory for Venice. Your role in guiding the Crusaders during the sacking of Constantinople led to an even greater expansion of your power, and secured your legacy throughout history.",
         "startIntroPart2": "Most insightful and cunning Doge, Venice once again requires the service of a skilled leader, one who can bring the republic back to the forefront of world affairs. Can you establish your nation through careful trade, or will you work to conquer your enemies through diplomacy? Can you build a civilization that will stand the test of time?",
         "declaringWar": "When you will be gone, Sir, there will be more for me!",
         "attacked": "You have revealed your purposes too early, my friend!",
         "defeated": "A wrong calculation, on my part.",
-        "introduction": "Welcome to Venice. I am Doge Enrico Dandolo.",
+        "introduction": "Welcome to Venice. I am Doge Francesco Foscari.",
         "neutralHello": "Greetings.",
         "hateHello": "You! What do you want?",
         "tradeRequest": "This offer won't be valid for a lot of time, think about it.",
@@ -278,8 +277,8 @@
 
     //City-States
     {
-        "name": "Asburgo",
-        "adjective": ["xxx"],
+        "name": "House of Habsburg",
+        "adjective": ["Habsburg"],
         "cityStateType": "Militaristic",
         "declaringWar": "We have wanted this for a LONG time. War it shall be.",
         "attacked": "Very well, we will kick you back to the ancient era!",
@@ -290,7 +289,7 @@
         "cities": ["Vienna"]
     },
     {
-        "name": "Impero Ottomano",
+        "name": "Ottoman Empire",
         "adjective": ["Ottoman"],
         "cityStateType": "Militaristic",
         "declaringWar": "We have wanted this for a LONG time. War it shall be.",
@@ -302,8 +301,8 @@
         "cities": ["Sarajevo"]
     },
     {
-        "name": "Repubblica di Ragusa",
-        "adjective": ["xxx"],
+        "name": "Republic of Ragusa",
+        "adjective": ["Ragusan"],
         "cityStateType": "Mercantile",
         "declaringWar": "We have wanted this for a LONG time. War it shall be.",
         "attacked": "Very well, we will kick you back to the ancient era!",
@@ -315,7 +314,7 @@
     },
     {
         "name": "Tunisia",
-        "adjective": ["xxx"],
+        "adjective": ["Tunisian"],
         "cityStateType": "Maritime",
         "declaringWar": "We have wanted this for a LONG time. War it shall be.",
         "attacked": "Very well, we will kick you back to the ancient era!",
@@ -323,11 +322,11 @@
         "outerColor": [0, 0, 0],
         "innerColor": [0,163,181],
         "uniques": [],
-        "cities": ["Tunisi"]
+        "cities": ["Tunis"]
     },
 	{
-        "name": "Ungheria",
-        "adjective": ["xxx"],
+        "name": "Hungary",
+        "adjective": ["Hungarian"],
         "cityStateType": "Militaristic",
         "declaringWar": "We have wanted this for a LONG time. War it shall be.",
         "attacked": "Very well, we will kick you back to the ancient era!",
@@ -338,8 +337,8 @@
         "cities": ["Budapest"]
     },
 	{
-        "name": "Principato di Trento",
-        "adjective": ["xxx"],
+        "name": "Prince-Bishopric of Trent",
+        "adjective": ["Trentine"],
         "cityStateType": "Religious",
         "declaringWar": "We have wanted this for a LONG time. War it shall be.",
         "attacked": "Very well, we will kick you back to the ancient era!",
@@ -347,11 +346,11 @@
         "outerColor": [0, 0, 0],
         "innerColor": [196, 87, 255],
         "uniques": [],
-        "cities": ["Trento"]
+        "cities": ["Trent"]
     },
 	{
-        "name": "Mantova",
-        "adjective": ["xxx"],
+        "name": "Mantua",
+        "adjective": ["Mantuan"],
         "cityStateType": "Mercantile",
         "declaringWar": "We have wanted this for a LONG time. War it shall be.",
         "attacked": "Very well, we will kick you back to the ancient era!",
@@ -359,11 +358,11 @@
         "outerColor": [0, 0, 0],
         "innerColor": [179, 179, 179],
         "uniques": [],
-        "cities": ["Mantova"]
+        "cities": ["Mantua"]
     },
 	{
-        "name": "Repubblica di Lucca",
-        "adjective": ["xxx"],
+        "name": "Republic of Lucca",
+        "adjective": ["Lucchese"],
         "cityStateType": "Militaristic",
         "declaringWar": "We have wanted this for a LONG time. War it shall be.",
         "attacked": "Very well, we will kick you back to the ancient era!",
@@ -374,8 +373,8 @@
         "cities": ["Lucca"]
     },
 	{
-        "name": "Repubblica di Siena",
-        "adjective": ["xxx"],
+        "name": "Republic of Siena",
+        "adjective": ["Senese"],
         "cityStateType": "Mercantile",
         "declaringWar": "We have wanted this for a LONG time. War it shall be.",
         "attacked": "Very well, we will kick you back to the ancient era!",
@@ -386,8 +385,8 @@
         "cities": ["Siena"]
     },
 	{
-        "name": "Principato di Piombino",
-        "adjective": ["xxx"],
+        "name": "Lordship of Piombino",
+        "adjective": ["Piombino"],
         "cityStateType": "Mercantile",
         "declaringWar": "We have wanted this for a LONG time. War it shall be.",
         "attacked": "Very well, we will kick you back to the ancient era!",
@@ -398,8 +397,8 @@
         "cities": ["Piombino"]
     },
 	{
-        "name": "Marchesato di Monferrato",
-        "adjective": ["xxx"],
+        "name": "March of Montferrat",
+        "adjective": ["Montferrat"],
         "cityStateType": "Militaristic",
         "declaringWar": "We have wanted this for a LONG time. War it shall be.",
         "attacked": "Very well, we will kick you back to the ancient era!",
