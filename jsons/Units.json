@@ -13,35 +13,35 @@
         ],
         "cost": 48
     },
-    {
-        "name": "Ngangkari",
-        "uniqueTo": "Australia",
-        "replaces": "Worker",
-        "unitType": "Civilian",
-        "movement": 3,
-        "promotions": ["Medic","Medic II"],
-        "uniques": [
-            "Can build [All] improvements on tiles",
-            "Can build [Land] improvements on tiles",
-            "Automation is a primary action",
-            "[+1] Movement <in [Water] tiles>"
-        ],
-        "cost": 48
-    },
-    {
-        "name": "Fast Worker",
-        "replaces": "Worker",
-        "uniqueTo": "Maurya",
-        "unitType": "Civilian",
-        "movement": 2,
-        "uniques": [
-            "Can build [All] improvements on tiles",
-            "Can build [Land] improvements on tiles",
-            "Automation is a primary action",
-            "Ignores terrain cost"
-        ],
-        "cost": 48
-    },
+//    {
+//        "name": "Ngangkari",
+//        "uniqueTo": "Australia",
+//        "replaces": "Worker",
+//        "unitType": "Civilian",
+//        "movement": 3,
+//        "promotions": ["Medic","Medic II"],
+//        "uniques": [
+//            "Can build [All] improvements on tiles",
+//            "Can build [Land] improvements on tiles",
+//            "Automation is a primary action",
+//            "[+1] Movement <in [Water] tiles>"
+//        ],
+//        "cost": 48
+//    },
+//    {
+//        "name": "Fast Worker",
+//        "replaces": "Worker",
+//        "uniqueTo": "Maurya",
+//        "unitType": "Civilian",
+//        "movement": 2,
+//        "uniques": [
+//            "Can build [All] improvements on tiles",
+//            "Can build [Land] improvements on tiles",
+//            "Automation is a primary action",
+//            "Ignores terrain cost"
+//        ],
+//        "cost": 48
+//    },
     {
         "name": "Settler",
         "unitType": "Civilian",
@@ -54,36 +54,36 @@
         ],
         "hurryCostModifier": 20
     },
-    {
-        "name": "Pioneer",
-        "uniqueTo": "America",
-        "replaces": "Settler",
-        "unitType": "Scout",
-        "movement": 2,
-        "strength": 5,
-        "cost": 106,
-        "uniques": [
-            "Founds a new city <by consuming this unit>",
-            "Excess Food converted to Production when under construction",
-            "Requires at least [2] population"
-        ],
-        "promotions": ["Ignore terrain cost"],
-        "hurryCostModifier": 20,
-        "attackSound": "nonmetalhit"
-    },
-    {
-        "name": "Ranchero",
-        "replaces": "Settler",
-        "uniqueTo": "Mexico",
-        "unitType": "Civilian",
-        "movement": 2,
-        "cost": 106,
-        "uniques": [
-            "Founds a new city <by consuming this unit>",
-            "Requires at least [2] population"
-        ],
-        "hurryCostModifier": 20
-    },
+//    {
+//        "name": "Pioneer",
+//        "uniqueTo": "America",
+//        "replaces": "Settler",
+//        "unitType": "Scout",
+//        "movement": 2,
+//        "strength": 5,
+//        "cost": 106,
+//        "uniques": [
+//            "Founds a new city <by consuming this unit>",
+//            "Excess Food converted to Production when under construction",
+//            "Requires at least [2] population"
+//        ],
+//        "promotions": ["Ignore terrain cost"],
+//        "hurryCostModifier": 20,
+//        "attackSound": "nonmetalhit"
+//    },
+//    {
+//        "name": "Ranchero",
+//        "replaces": "Settler",
+//        "uniqueTo": "Mexico",
+//        "unitType": "Civilian",
+//        "movement": 2,
+//        "cost": 106,
+//        "uniques": [
+//            "Founds a new city <by consuming this unit>",
+//            "Requires at least [2] population"
+//        ],
+//        "hurryCostModifier": 20
+//    },
     {
         "name": "Scout",
         "unitType": "Scout",
@@ -99,35 +99,35 @@
         "promotions": ["Ignore terrain cost"],
         "attackSound": "nonmetalhit"
     },
-    {
-        "name": "Apedemaks Bow",
-        "replaces": "Scout",
-        "uniqueTo": "Nubia",
-        "unitType": "Archery",
-        "movement": 2,
-        "strength": 5,
-        "rangedStrength": 5,
-        "range": 3,
-        "cost": 25,
-        "obsoleteTech": "Steam Power",
-        "upgradesTo": "Airship",
-        "promotions": ["Ignore terrain cost"],
-        "attackSound": "arrow"
-    },
-    {
-        "name": "Pathfinder",
-        "replaces": "Scout",
-        "uniqueTo": "Shoshone",
-        "unitType": "Scout",
-        "movement": 2,
-        "strength": 8,
-        "cost": 40,
-        "obsoleteTech": "Steam Power",
-        "upgradesTo": "Airship",
-        "uniques": ["May upgrade to [Composite Bowman] through ruins-like effects"],
-        "promotions": ["Ignore terrain cost"],
-        "attackSound": "nonmetalhit"
-    },
+//    {
+//        "name": "Apedemaks Bow",
+//        "replaces": "Scout",
+//        "uniqueTo": "Nubia",
+//        "unitType": "Archery",
+//        "movement": 2,
+//        "strength": 5,
+//        "rangedStrength": 5,
+//        "range": 3,
+//        "cost": 25,
+//        "obsoleteTech": "Steam Power",
+//        "upgradesTo": "Airship",
+//        "promotions": ["Ignore terrain cost"],
+//        "attackSound": "arrow"
+//    },
+//    {
+//        "name": "Pathfinder",
+//        "replaces": "Scout",
+//        "uniqueTo": "Shoshone",
+//        "unitType": "Scout",
+//        "movement": 2,
+//        "strength": 8,
+//        "cost": 40,
+//        "obsoleteTech": "Steam Power",
+//        "upgradesTo": "Airship",
+//        "uniques": ["May upgrade to [Composite Bowman] through ruins-like effects"],
+//        "promotions": ["Ignore terrain cost"],
+//        "attackSound": "nonmetalhit"
+//    },
     {
         "name": "Warrior",
         "unitType": "Sword",
