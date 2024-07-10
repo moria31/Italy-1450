@@ -212,7 +212,7 @@
         ]
     },
     {
-        "name": "Stato della Chiesa",
+        "name": "Papal State",
         "leaderName": "Urban II",
         "adjective": ["Vatican"],
         "startBias": ["Avoid [Coast]"],
@@ -230,10 +230,10 @@
         "innerColor": [130,130,130],
         "uniqueName": "The Holy See",
         "uniques": [
+		    "Free [Great Prophet] appears"
             "[+1 Culture, +1 Food, +1 Gold] from every [Great Improvement]",
             "Gain a free [Courthouse] [in annexed cities] <in cities following our religion>",
             "Gain a free [Courthouse] [in puppeted cities] <in cities following our religion>"
-			"Free [Great Prophet] appears"
         ],
         "cities": [
             "Vatican City","Benevento","Pontecorvo","San Marino","Terracina","Narni","Spoleto","Assisi","Arpino","Perugia",
