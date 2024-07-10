@@ -1476,7 +1476,7 @@
         "culture": 1,
         "faith": 8,
         "uniques": [
-            "Only available <if [Temple] is constructed in all [non-[Puppeted]] cities>",
+            "Only available <if [Church] is constructed in all [non-[Puppeted]] cities>",
             "Cost increases by [30] per owned city",
             "[+100]% Natural religion spread [in this city]",
             "Hidden when religion is disabled",
