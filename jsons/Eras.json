@@ -40,7 +40,7 @@
         "startingMilitaryUnitCount": 3,
         "startingMilitaryUnit": "Spearman",
         "startingGold": 25,
-        "startingCulture": 200,
+        //"startingCulture": 200,
         "settlerPopulation": 1,
         "settlerBuildings": ["Monument"], //"Shrine",
         // So theoretically this is always just all the wonders at least 2 eras old. So we could just use that.
