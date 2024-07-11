@@ -32,7 +32,7 @@
 			"Units ignore terrain costs when moving into any tile with Hills"
         ],
         "cities": [
-            "Chambéry","Torino","Nizza","Aosta","Cuneo","Ivrea","Biella","Vercelli",
+            "Chambéry","Torino","Geneva","Nizza","Aosta","Monaco","Cuneo","Ivrea","Biella","Vercelli",
             "Asti","Alba","Pinerolo","Chieri","Savigliano","Saluzzo"
         ],
         "spyNames": [
@@ -66,7 +66,7 @@
 			"Starts with [Guilds]"
         ],
         "cities": [
-            "Genoa","Chiavari","La Spezia","Sarzana","Savona","Ventimiglia","Novi","Ajaccio","Bonifacio","Bastia",
+            "Genoa","Sarzana","Ajaccio","Bonifacio","Bastia","Savona","Ventimiglia","Novi","Chiavari","La Spezia",
             "Porto Vecchio"
         ],
         "spyNames": [
@@ -98,7 +98,7 @@
 			"Starts with [Civil Service]"
         ],
         "cities": [
-            "Milan","Cremona","Pavia","Como","Monza","Vigevano","Lodi","Voghera","Tortona","Mortara",
+            "Milan","Cremona","Pavia","Piacenza","Parma","Como","Monza","Vigevano","Lodi","Voghera","Tortona","Mortara",
             "Pizzighettone","Varese"
         ],
         "spyNames": [
@@ -161,8 +161,9 @@
 			"Starts with [Metal Casting]"
         ],
         "cities": [
-        	"Napoli","Palermo","Messina","Catania","Ragusa","Trapani","Cagliari","Iglesias","Sassari","Oristano","Torres",
-		"Capua","Salerno","Foggia","Brindisi","Otranto","Catanzaro","L'Aquila","Chieti","Taranto","Cosenza","Potenza"
+        	"Napoli","Palermo","Messina","Catania","Ragusa","Trapani","Cagliari","Iglesias","Sassari","Oristano","Capua",
+		"Salerno","Foggia","Brindisi","Otranto","Catanzaro","L'Aquila","Chieti","Taranto","Cosenza","Potenza","Siracusa",
+		"Bari","Crotone","Torres"
         ],
         "spyNames": [
             "Rodrigo","Esmeralda","Leon","Mathilda","Ramona","Señor X","Filippo","Serpiente","Garcia","El Lobo"
