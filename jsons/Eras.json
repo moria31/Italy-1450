@@ -35,7 +35,7 @@
     {
         "name": "Medieval era",
         "researchAgreementCost": 250,
-        "startingSettlerCount": 2,
+        "startingSettlerCount": 1, //2
         "startingWorkerCount": 1,
         "startingMilitaryUnitCount": 3,
         "startingMilitaryUnit": "Spearman",
