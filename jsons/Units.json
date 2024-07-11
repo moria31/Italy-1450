@@ -993,6 +993,26 @@
         "attackSound": "metalhit"
     },
     {
+        "name": "Soldier of fortune",
+        "unitType": "Sword",
+        "movement": 3,
+        "strength": 16,
+        "cost": 45,
+        "requiredTech": "Civil Service",
+        "uniques": [
+            "[+50]% Strength <vs [Mounted] units>",
+			"[+20]% XP gained from combat"
+            "No movement cost to pillage",
+			"Can only heal by pillaging"
+            "Can be purchased with [Gold] [in all cities]",
+            //"Only available <after adopting [Mercenary Army]>",
+            "Mercenary", // temp fix for now
+            "Unbuildable"
+        ],
+        "upgradesTo": "Lancer",
+        "attackSound": "metalhit"
+    },
+    {
         "name": "Swiss Guard",
         "uniqueTo": "Papal State",
         "replaces": "Landsknecht",
@@ -1028,10 +1048,25 @@
         "attackSound": "arrow"
     },
     {
-        "name": "Great Galleass",
+        "name": "Genoan Great Galleass",
         "replaces": "Galleass",
         "unitType": "Ranged Water",
-        "uniqueTo": "Venice",
+        "uniqueTo": "Republic of Genoa",
+        "movement": 3,
+        "strength": 18,
+        "rangedStrength": 20,
+        "cost": 110,
+        "requiredTech": "Compass",
+        "obsoleteTech": "Navigation",
+        "upgradesTo": "Frigate",
+        "uniques": ["Cannot enter ocean tiles"],
+        "attackSound": "arrow"
+    },
+    {
+        "name": "Venetian Great Galleass",
+        "replaces": "Galleass",
+        "unitType": "Ranged Water",
+        "uniqueTo": "Republic of Venice",
         "movement": 3,
         "strength": 18,
         "rangedStrength": 20,
