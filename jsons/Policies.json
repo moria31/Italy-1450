@@ -612,6 +612,7 @@
                 "name": "Mercenary Army",
                 "uniques": [
                     "Comment [Allows purchasing [Landsknecht] at [Civil Service]]",
+					"Comment [Allows purchasing [Soldier of fortune] at [Civil Service]]",
                     "Comment [Allows purchasing [Foreign Legion] at [Replaceable Parts]]",
                     "Provides [1] [Policies]"
                 ],
