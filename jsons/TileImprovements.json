@@ -609,7 +609,7 @@
         "culture": 4,
         //"science": 2,
         "turnsToBuild": 7,
-        "techRequired": "Agriculture",
+        "techRequired": "Chivalry",
         "uniques": [
             //"Gives a defensive bonus of [50]%",
             "[+1 Gold, +1 Culture] <after discovering [Flight]>",
@@ -687,7 +687,7 @@
         "terrainsCanBeBuiltOn": ["Marsh"],
         "food": 2,
         "turnsToBuild": 7,
-        "techRequired": "Guilds",
+        "techRequired": "Agriculture",
         "uniques": [
             "[+1 Food] from [Marsh] tiles",
             //"[+1 Food] from [Flood plains] tiles",
