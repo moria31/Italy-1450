@@ -378,6 +378,8 @@
                     "[+1 Culture] from every [Caer]",
                     "[+1 Culture] from every [Moai]",
                     "[+1 Culture] from every [Chateau]",
+					"[+1 Culture] from every [Este Villa]",
+					"[+1 Culture] from every [Medici Villa]",
                     "Provides [1] [Policies]"
                 ],
                 "requires": ["Cultural Centers"],
