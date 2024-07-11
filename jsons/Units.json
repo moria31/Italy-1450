@@ -996,8 +996,8 @@
         "name": "Soldier of fortune",
         "unitType": "Sword",
         "movement": 3,
-        "strength": 16,
-        "cost": 45,
+        "strength": 18,
+        "cost": 40,
         "requiredTech": "Civil Service",
         "uniques": [
             "[+50]% Strength <vs [Mounted] units>",
