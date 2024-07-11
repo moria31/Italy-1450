@@ -1001,9 +1001,10 @@
         "requiredTech": "Civil Service",
         "uniques": [
             "[+50]% Strength <vs [Mounted] units>",
-			"[+20]% XP gained from combat"
+			"[+50]% XP gained from combat"
             "No movement cost to pillage",
 			"Can only heal by pillaging"
+			"Heals [20] damage if it kills a unit"
             "Can be purchased with [Gold] [in all cities]",
             //"Only available <after adopting [Mercenary Army]>",
             "Mercenary", // temp fix for now
