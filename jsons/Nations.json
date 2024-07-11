@@ -88,8 +88,8 @@
         "neutralHello": "Good day.",
         "hateHello": "Well?",
         "tradeRequest": "Is the following trade of interest to you?",
-        "outerColor": [139,32,23],
-        "innerColor": [134,238,214],
+        "outerColor": [234,0,0],
+        "innerColor": [255,255,255],
         "uniqueName": "Manifest Destiny",
         "uniques": [
             //"[+1] Sight <for [{Military} {Land}] units>",
