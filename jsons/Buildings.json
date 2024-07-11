@@ -1569,8 +1569,40 @@
         "requiredTech": "Guilds"
     },
     {
-        "name": "Grand Canal of Venice",
-        "uniqueTo": "Venice",
+        "name": "Banco del Giro",
+        "uniqueTo": "Republic of Venice",
+        "replaces": "East India Company",
+        "cost": 125,
+        "gold": 4,
+        "percentStatBonus": {"gold": 25},
+        "isNationalWonder": true,
+        "uniques": [
+            "Cost increases by [30] per owned city",
+            "Provides [2] [Trade Route]",
+            "[+4 Gold] from [Land Trade Route (Gold)] tiles [in this city]",
+            "[+4 Gold] from [Sea Trade Route (Gold)] tiles [in this city]"
+        ],
+        "requiredTech": "Currency"
+    },
+    {
+        "name": "Bank of Saint George",
+        "uniqueTo": "Republic of Genoa",
+        "replaces": "East India Company",
+        "cost": 125,
+        "gold": 4,
+        "percentStatBonus": {"gold": 25},
+        "isNationalWonder": true,
+        "uniques": [
+            "Cost increases by [30] per owned city",
+            "Provides [2] [Trade Route]",
+            "[+4 Gold] from [Land Trade Route (Gold)] tiles [in this city]",
+            "[+4 Gold] from [Sea Trade Route (Gold)] tiles [in this city]"
+        ],
+        "requiredTech": "Currency"
+    },
+    {
+        "name": "Medici Bank",
+        "uniqueTo": "Republic of Florence",
         "replaces": "East India Company",
         "cost": 125,
         "gold": 4,
@@ -2389,6 +2421,43 @@
 //        ],
 //        "requiredTech": "Chivalry"
 //    },
+    {
+        "name": "Royal Palace of Caserta",
+        "uniqueTo": "Kingdom of Aragon",
+        "replaces": "Hermitage",
+        "cost": 125,
+        "percentStatBonus": {"culture": 50},
+        "culture": 5,
+        //"production": 3,
+        //"science": 3,
+        "gold": 3,
+        "isNationalWonder": true,
+        "uniques": [
+            "Only available <if [Opera House] is constructed in all [non-[Puppeted]] cities>",
+            "Cost increases by [30] per owned city",
+            "Empire enters golden age"
+        ],
+        "requiredTech": "Chivalry"
+    },
+    {
+        "name": "Castello Estense",
+        "uniqueTo": "House of Este",
+        "replaces": "Hermitage",
+        "cost": 125,
+        "percentStatBonus": {"culture": 50},
+        "culture": 5,
+        //"production": 3,
+        //"science": 3,
+        "gold": 3,
+        "isNationalWonder": true,
+        "uniques": [
+            "Only available <if [Walls] is constructed in all [non-[Puppeted]] cities>",
+            "Cost increases by [30] per owned city",
+            "Empire enters golden age"
+			"[+20]% City Strength from defensive buildings"
+        ],
+        "requiredTech": "Chivalry"
+    },
     {
         "name": "Taj Mahal",
         "culture": 1,
