@@ -2481,7 +2481,9 @@
     },
     {
         "name": "Uffizi",
+		"uniqueTo": "Republic of Florence",
         "culture": 2,
+		"percentStatBonus": {"culture": 25},
         "isWonder": true,
         "uniques": [
             "Free [Great Artist] appears",
