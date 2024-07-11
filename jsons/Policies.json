@@ -163,7 +163,8 @@
                     "[+15]% Production when constructing [Colosseum] buildings [in all cities]",
                     "[+15]% Production when constructing [Barracks] buildings [in all cities]",
                     "[+15]% Production when constructing [Market] buildings [in all cities]",
-                    "[+15]% Production when constructing [Temple] buildings [in all cities]",
+                    //"[+15]% Production when constructing [Temple] buildings [in all cities]",
+					"[+15]% Production when constructing [Church] buildings [in all cities]",
                     "[+15]% Production when constructing [Workshop] buildings [in all cities]",
                     "[+15]% Production when constructing [University] buildings [in all cities]",
                     "[+15]% Production when constructing [Opera House] buildings [in all cities]",
@@ -259,8 +260,8 @@
         "name": "Piety",
         "era": "Ancient era",
         "uniques": [
-            "[+100]% Production when constructing [Temple] buildings [in all cities]",
-            "[+100]% Production when constructing [Shrine] buildings [in all cities]",
+            "[+100]% Production when constructing [Church] buildings [in all cities]",
+            //"[+100]% Production when constructing [Shrine] buildings [in all cities]",
             "[+1 Culture, +1 Faith] [in capital]",
             "Comment [Unlocks [Great Mosque of Djenne]]",
             "Provides [1] [Policies]"
@@ -269,7 +270,7 @@
             {
                 "name": "Mandate Of Heaven",
                 "uniques": [
-                    "[+1 Happiness] from every [Temple]",
+                    "[+1 Happiness] from every [Church]",
                     "[+1 Faith] [in capital]",
                     "[Faith] cost of purchasing items in cities [-20]%",
                     "Provides [1] [Policies]"
@@ -280,8 +281,8 @@
             {
                 "name": "Organized Religion",
                 "uniques": [
-                    "[+1 Culture, +1 Faith] from every [Shrine]",
-                    "[+1 Culture, +1 Faith] from every [Temple]",
+                    //"[+1 Culture, +1 Faith] from every [Shrine]",
+                    "[+1 Culture, +1 Faith] from every [Church]",
                     "Provides [1] [Policies]"
                 ],
                 "row": 1,
@@ -291,8 +292,8 @@
                 "name": "Theocracy",
                 "uniques": [
                     "[+33]% [Gold] from every [Grand Temple]",
-                    "[+1 Gold] from every [Temple]",
-                    "[+1 Gold] from every [Shrine]",
+                    "[+1 Gold] from every [Church]",
+                    //"[+1 Gold] from every [Shrine]",
                     "[+3 Gold] from every [Holy site]",
                     "Provides [1] [Policies]"
                 ],
@@ -318,7 +319,7 @@
                 "uniques": [
                     "[+1 Culture, +1 Faith] [in all cities]",
                     "[+25]% [Science] from every [Grand Temple]",
-                    "[+2 Science] from every [Temple]",
+                    "[+2 Science] from every [Church]",
                     "Provides [1] [Policies]"
                 ],
                 "requires": ["Organized Religion"],
