@@ -798,6 +798,23 @@
 //        "techRequired": "Construction",
 //        "shortcutKey": "F"
 //    },
+    {
+        "name": "Savoyard fort",
+        "uniqueTo": "Duchy of Savoy",
+        "terrainsCanBeBuiltOn": ["Hill"],
+        //"food": 1,
+        "production": 1,
+        "gold": 1,
+		"culture": 1,
+        "turnsToBuild": 6,
+        "techRequired": "Engineering",
+        "uniques": [
+            //"Can be built outside your borders",
+			"Must be next to [Mountain]",
+            "Gives a defensive bonus of [50]%"
+        ],
+        "shortcutKey": "O"
+    },
 
     // Unbuildable improvements
     {
