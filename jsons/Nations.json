@@ -70,7 +70,7 @@
             "Porto Vecchio"
         ],
         "spyNames": [
-            "Simone","Gabriele","Domenico","Nicolò","leonardo","Antoniotto","Giacomo","Pietro","Antonio","Giorgio"
+            "Simone","Gabriele","Domenico","Nicolò","Leonardo","Antoniotto","Giacomo","Pietro","Antonio","Giorgio"
         ]
     },
     {
@@ -165,7 +165,7 @@
 		"Capua","Salerno","Foggia","Brindisi","Otranto","Catanzaro","L'Aquila","Chieti","Taranto","Cosenza","Potenza"
         ],
         "spyNames": [
-            "Rodrigo","Esmeralda","Leon","Mathilda","Ramona","Señor X","Topolino","Serpiente","Garcia","El Lobo"
+            "Rodrigo","Esmeralda","Leon","Mathilda","Ramona","Señor X","Filippo","Serpiente","Garcia","El Lobo"
         ]
     },
 //    {
@@ -296,6 +296,38 @@
         ]
     },
     
+    {
+        "name": "Spectator 2",
+        "leaderName": "xxx",
+        "adjective": ["xxx"],
+        "startBias": ["Coast"],
+//		"preferredVictoryType": "Diplomatic",
+        "startIntroPart1": "Greetings, most astute Doge Francesco Foscari of Venice, master of statecraft and shrewd negotiator. Although you rose to power late in life, old age did little to slow your cunning or ambition, as you deftly managed the bustling commercial center of Venice during a time of great instability. In aligning yourself with the Fourth Crusade, you carefully gained a strategic advantage and used the Crusaders to reacquire lost territory for Venice. Your role in guiding the Crusaders during the sacking of Constantinople led to an even greater expansion of your power, and secured your legacy throughout history.",
+        "startIntroPart2": "Most insightful and cunning Doge, Venice once again requires the service of a skilled leader, one who can bring the republic back to the forefront of world affairs. Can you establish your nation through careful trade, or will you work to conquer your enemies through diplomacy? Can you build a civilization that will stand the test of time?",
+        "declaringWar": "When you will be gone, Sir, there will be more for me!",
+        "attacked": "You have revealed your purposes too early, my friend!",
+        "defeated": "A wrong calculation, on my part.",
+        "introduction": "Welcome to Venice. I am Doge Francesco Foscari.",
+        "neutralHello": "Greetings.",
+        "hateHello": "You! What do you want?",
+        "tradeRequest": "This offer won't be valid for a lot of time, think about it.",
+        "outerColor": [105,34,172],
+        "innerColor": [255,254,231],
+        "uniqueName": "Serenissima",
+        "uniques": [
+            "Provides [1] [Trade Route] <upon discovering [Compass] technology>",
+            "Free [Cargo Ship] appears <upon discovering [Compass] technology>"
+			"Starts with [Commerce] adopted"
+			"Starts with [Guilds]"
+        ],
+        "cities": [
+            "Venice","Candia","Zara","Durazzo","Tessalonica","Limassol","Patras","Nicosia","Spalato",
+            "Veroz","Ravenna","Negroponte","Athens","Burano","Leonessa","Cerigo","Corfu","Epirus","Zante"
+        ],
+        "spyNames": [
+            "Gasparo","Giosafat","Ambrogio","Niccolo","Marino","Cesare","Francesco","Giovanni","Bertolome","Filomena"
+        ]
+    },
 
     //City-States
     {
