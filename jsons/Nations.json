@@ -256,9 +256,9 @@
 			"Starts with [Theology]"
         ],
         "cities": [
-            "Vatican City","Benevento","Pontecorvo","San Marino","Terracina","Narni","Spoleto","Assisi","Arpino","Perugia",
-            "Macerata","Ancona","Forli","Rimini","Ascoli","Pesaro","Ferrara","Latina","Frosinone","Rieti",
-            "Terni","Arezzo"
+            "Vatican City","Benevento","Rieti","Viterbo","Perugia","Ascoli","Ancona","Urbino","Fermo",
+            "Rimini","Macerata","Forli","Pesaro","Ferrara","Latina","Frosinone","Pontecorvo","Arpino","Assisi",
+            "Terni","Arezzo","San Marino","Terracina","Narni","Spoleto"
         ],
         "spyNames": [
             "Flavius","Regula","Servius","Lucia","Cornelius","Licina","Canus","Serpens","Agrippa","Brutus"
@@ -289,7 +289,8 @@
 			"Starts with [Guilds]"
         ],
         "cities": [
-            "Venice","Candia","Zara","Durazzo","Tessalonica","Limassol","Patras","Nicosia","Spalato",
+            "Venice","Treviso","Padova","Vicenza","Verona","Brescia","Bergamo","Belluno","Aquileia","Trieste","Pola",
+			"Zara","Spalato","Durazzo","Tessalonica","Limassol","Patras","Nicosia",
             "Veroz","Ravenna","Negroponte","Athens","Burano","Leonessa","Cerigo","Corfu","Epirus","Zante"
         ],
         "spyNames": [
