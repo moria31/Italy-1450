@@ -512,222 +512,291 @@
 
     //Civilization unique improvements
     {
-        "name": "Moai",
-        "uniqueTo": "Polynesia",
-        "terrainsCanBeBuiltOn": ["Land"],
-        "culture": 1,
-        "turnsToBuild": 4,
+        "name": "Rice field",
+		"uniqueTo": "Duchy of Milan",
+        "terrainsCanBeBuiltOn": ["Grassland"],
+        "food": 2,
+        "turnsToBuild": 7,
+        "techRequired": "Agriculture",
         "uniques": [
-            "[+1 Culture] for each adjacent [Moai]",
-            "[+1 Gold] <after discovering [Flight]>",
-            "Can only be built on [Coastal] tiles",
-            "Pillaging this improvement yields approximately [+20 Gold]"
+            "Can also be built on tiles adjacent to fresh water <in [Land] tiles>",
+            "[+1 Food] from [Fresh water] tiles <after discovering [Civil Service]>",
+            //"[+1 Food] from [non-fresh water] tiles <after discovering [Fertilizer]>",
+            //"Can only be built to improve a resource <in [resource] tiles>",
+			"Cannot be built on [resource] tiles",
+            "Pillaging this improvement yields approximately [+18 Gold]"
         ],
-        "techRequired": "Construction",
-        "shortcutKey": "M"
+        "shortcutKey": "F"
     },
+//    {
+//        "name": "Moai",
+//        "uniqueTo": "Polynesia",
+//        "terrainsCanBeBuiltOn": ["Land"],
+//        "culture": 1,
+//        "turnsToBuild": 4,
+//        "uniques": [
+//            "[+1 Culture] for each adjacent [Moai]",
+//            "[+1 Gold] <after discovering [Flight]>",
+//            "Can only be built on [Coastal] tiles",
+//            "Pillaging this improvement yields approximately [+20 Gold]"
+//        ],
+//        "techRequired": "Construction",
+//        "shortcutKey": "M"
+//    },
+//    {
+//        "name": "Sacred Grove",
+//        "uniqueTo": "Lithuania",
+//        "terrainsCanBeBuiltOn": ["Land"],
+//        "science": 1,
+//        "production": 1,
+//        "culture": 1,
+//        "food": 1,
+//        "faith": 1,
+//        "uniques": [
+//            "Great Improvement",
+//            "Removes removable features when built",
+//            "[+1 Science, +1 Production, +1 Culture, +1 Food, +1 Faith] <after discovering [Philosophy]>",
+//            "[+1 Science, +1 Production, +1 Culture, +1 Food, +1 Faith] <after discovering [Theology]>",
+//            "[+1 Science, +1 Production, +1 Culture, +1 Food, +1 Faith] <after discovering [Acoustics]>",
+//            "[+1 Science, +1 Production, +1 Culture, +1 Food, +1 Faith] <after discovering [Archaeology]>",
+//            "[+1 Science, +1 Production, +1 Culture, +1 Food, +1 Faith] <after discovering [Plastics]>",
+//            "[+1 Science, +1 Production, +1 Culture, +1 Food, +1 Faith] <after discovering [Computers]>",
+//            "[+1 Science, +1 Production, +1 Culture, +1 Food, +1 Faith] <after discovering [Telecommunications]>",
+//            "Pillaging this improvement yields approximately [+20 Gold]"
+//        ]
+//    },
+//    {
+//        "name": "Chateau",
+//        "uniqueTo": "France",
+//        "terrainsCanBeBuiltOn": ["Land"],
+//        "gold": 1,
+//        "culture": 2,
+//        "science": 2,
+//        "turnsToBuild": 7,
+//        "techRequired": "Chivalry",
+//        "uniques": [
+//            "Gives a defensive bonus of [50]%",
+//            "[+2 Gold, +1 Culture] <after discovering [Flight]>",
+//            "Must be next to [Luxury resource]",
+//            "Cannot be built on [resource] tiles",
+//            "Only available <with [0] to [0] neighboring [Chateau] tiles>",
+//            "Pillaging this improvement yields approximately [+20 Gold]"
+//        ]
+//    },
     {
-        "name": "Sacred Grove",
-        "uniqueTo": "Lithuania",
-        "terrainsCanBeBuiltOn": ["Land"],
-        "science": 1,
-        "production": 1,
-        "culture": 1,
-        "food": 1,
-        "faith": 1,
-        "uniques": [
-            "Great Improvement",
-            "Removes removable features when built",
-            "[+1 Science, +1 Production, +1 Culture, +1 Food, +1 Faith] <after discovering [Philosophy]>",
-            "[+1 Science, +1 Production, +1 Culture, +1 Food, +1 Faith] <after discovering [Theology]>",
-            "[+1 Science, +1 Production, +1 Culture, +1 Food, +1 Faith] <after discovering [Acoustics]>",
-            "[+1 Science, +1 Production, +1 Culture, +1 Food, +1 Faith] <after discovering [Archaeology]>",
-            "[+1 Science, +1 Production, +1 Culture, +1 Food, +1 Faith] <after discovering [Plastics]>",
-            "[+1 Science, +1 Production, +1 Culture, +1 Food, +1 Faith] <after discovering [Computers]>",
-            "[+1 Science, +1 Production, +1 Culture, +1 Food, +1 Faith] <after discovering [Telecommunications]>",
-            "Pillaging this improvement yields approximately [+20 Gold]"
-        ]
-    },
-    {
-        "name": "Chateau",
-        "uniqueTo": "France",
-        "terrainsCanBeBuiltOn": ["Land"],
+        "name": "Medici Villa",
+        "uniqueTo": "Republic of Florence",
+        "terrainsCanBeBuiltOn": ["Hill"],
         "gold": 1,
-        "culture": 2,
-        "science": 2,
+        "culture": 4,
+        //"science": 2,
         "turnsToBuild": 7,
         "techRequired": "Chivalry",
         "uniques": [
-            "Gives a defensive bonus of [50]%",
-            "[+2 Gold, +1 Culture] <after discovering [Flight]>",
+            //"Gives a defensive bonus of [50]%",
+            "[+1 Gold, +1 Culture] <after discovering [Flight]>",
             "Must be next to [Luxury resource]",
             "Cannot be built on [resource] tiles",
-            "Only available <with [0] to [0] neighboring [Chateau] tiles>",
+            "Only available <with [0] to [0] neighboring [Medici Villa] tiles>",
             "Pillaging this improvement yields approximately [+20 Gold]"
         ]
     },
     {
-        "name": "Harjis",
-        "uniqueTo": "Goths",
-        "terrainsCanBeBuiltOn": ["Land"],
-        "production": 1,
+        "name": "Este Villa",
+        "uniqueTo": "House of Este",
+        "terrainsCanBeBuiltOn": ["Grassland"],
+        "gold": 1,
+        "culture": 4,
+        //"science": 2,
         "turnsToBuild": 7,
-        "techRequired": "Mining",
+        "techRequired": "Agriculture",
         "uniques": [
-            "[+1 Production] <after discovering [Iron Working]>",
-            "[+1 Production] <after discovering [Gunpowder]>",
-            "[+1 Production] <after discovering [Dynamite]>",
+            //"Gives a defensive bonus of [50]%",
+            "[+1 Gold, +1 Culture] <after discovering [Flight]>",
             "Must be next to [Luxury resource]",
             "Cannot be built on [resource] tiles",
-            "Only available <with [0] to [0] neighboring [Harjis] tiles>",
+            "Only available <with [0] to [0] neighboring [Este Villa] tiles>",
             "Pillaging this improvement yields approximately [+20 Gold]"
         ]
-    },
+    },	
+//    {
+//        "name": "Harjis",
+//        "uniqueTo": "Goths",
+//        "terrainsCanBeBuiltOn": ["Land"],
+//        "production": 1,
+//        "turnsToBuild": 7,
+//        "techRequired": "Mining",
+//        "uniques": [
+//            "[+1 Production] <after discovering [Iron Working]>",
+//            "[+1 Production] <after discovering [Gunpowder]>",
+//            "[+1 Production] <after discovering [Dynamite]>",
+//            "Must be next to [Luxury resource]",
+//            "Cannot be built on [resource] tiles",
+//            "Only available <with [0] to [0] neighboring [Harjis] tiles>",
+//            "Pillaging this improvement yields approximately [+20 Gold]"
+//        ]
+//    },
+//    {
+//        "name": "Brazilwood Camp",
+//        "uniqueTo": "Brazil",
+//        "terrainsCanBeBuiltOn": ["Jungle","Forest"],
+//        "production": 1,
+//        "turnsToBuild": 7,
+//        "techRequired": "Bronze Working",
+//        "uniques": [
+//            "[+2 Gold] <after discovering [Machinery]>",
+//            "[+2 Culture] <after discovering [Acoustics]>",
+//            "Pillaging this improvement yields approximately [+20 Gold]"
+//        ]
+//    },
+//    {
+//        "name": "Tibetan Monastery",
+//        "uniqueTo": "Tibet",
+//        "terrainsCanBeBuiltOn": ["Hill","Jungle","Forest"],
+//        "culture": 1,
+//        "faith": 2,
+//        "turnsToBuild": 7,
+//        "techRequired": "Calendar",
+//        "uniques": [
+//            "[+1 Faith] <after discovering [Theology]>",
+//            "[+1 Culture] for each adjacent [Mountain]",
+//            "Can only be built on [Hill] tiles",
+//            "Cannot be built on [resource] tiles",
+//            "Pillaging this improvement yields approximately [+20 Gold]"
+//        ]
+//    },
+//    {
+//        "name": "Polder",
+//        "uniqueTo": "The Netherlands",
+//        "terrainsCanBeBuiltOn": ["Marsh","Flood plains","Coast","Lakes"],
+//        "food": 2,
+//        "turnsToBuild": 7,
+//        "techRequired": "Guilds",
+//        "uniques": [
+//            "[+1 Food] from [Marsh] tiles",
+//            "[+1 Food] from [Flood plains] tiles",
+//            "[+1 Production, +2 Gold] <after discovering [Economics]>",
+//            "Cannot be built on [Water] tiles <with [0] to [2] neighboring [Land] tiles>",
+//            "Cannot be built on [resource] tiles",
+//            "Pillaging this improvement yields approximately [+20 Gold]"
+//        ]
+//    },
     {
-        "name": "Brazilwood Camp",
-        "uniqueTo": "Brazil",
-        "terrainsCanBeBuiltOn": ["Jungle","Forest"],
-        "production": 1,
-        "turnsToBuild": 7,
-        "techRequired": "Bronze Working",
-        "uniques": [
-            "[+2 Gold] <after discovering [Machinery]>",
-            "[+2 Culture] <after discovering [Acoustics]>",
-            "Pillaging this improvement yields approximately [+20 Gold]"
-        ]
-    },
-    {
-        "name": "Tibetan Monastery",
-        "uniqueTo": "Tibet",
-        "terrainsCanBeBuiltOn": ["Hill","Jungle","Forest"],
-        "culture": 1,
-        "faith": 2,
-        "turnsToBuild": 7,
-        "techRequired": "Calendar",
-        "uniques": [
-            "[+1 Faith] <after discovering [Theology]>",
-            "[+1 Culture] for each adjacent [Mountain]",
-            "Can only be built on [Hill] tiles",
-            "Cannot be built on [resource] tiles",
-            "Pillaging this improvement yields approximately [+20 Gold]"
-        ]
-    },
-    {
-        "name": "Polder",
-        "uniqueTo": "The Netherlands",
-        "terrainsCanBeBuiltOn": ["Marsh","Flood plains","Coast","Lakes"],
+        "name": "Este reclamation",
+        "uniqueTo": "House of Este",
+        "terrainsCanBeBuiltOn": ["Marsh"],
         "food": 2,
         "turnsToBuild": 7,
         "techRequired": "Guilds",
         "uniques": [
             "[+1 Food] from [Marsh] tiles",
-            "[+1 Food] from [Flood plains] tiles",
+            //"[+1 Food] from [Flood plains] tiles",
             "[+1 Production, +2 Gold] <after discovering [Economics]>",
-            "Cannot be built on [Water] tiles <with [0] to [2] neighboring [Land] tiles>",
+            //"Cannot be built on [Water] tiles <with [0] to [2] neighboring [Land] tiles>",
             "Cannot be built on [resource] tiles",
             "Pillaging this improvement yields approximately [+20 Gold]"
         ]
     },
-    {
-        "name": "Tipi",
-        "uniqueTo": "Sioux",
-        "terrainsCanBeBuiltOn": ["Plains"],
-        "food": 1,
-        "faith": 1,
-        "turnsToBuild": 7,
-        "techRequired": "Trapping",
-        "uniques": [
-            "Does not need removal of [Forest]",
-            "Does not need removal of [Jungle]",
-            "Must be next to [Luxury resource]",
-            "[+1 Food] <after discovering [Civil Service]>",
-            "[+1 Faith] <after discovering [Theology]>",
-            "[+1 Culture] for each adjacent [City center]",
-            "[+1 Gold] <in [River] tiles>",
-            "Cannot be built on [Hill] tiles",
-            "Can only be built to improve a resource <in [resource] tiles>",
-            "Pillaging this improvement yields approximately [+20 Gold]"
-        ]
-    },
-    {
-        "name": "Kasbah",
-        "uniqueTo": "Morocco",
-        "terrainsCanBeBuiltOn": ["Desert","Flood plains","Hill"],
-        "food": 2,
-        "production": 1,
-        "gold": 1,
-        "turnsToBuild": 7,
-        "techRequired": "Chivalry",
-        "uniques": [
-            "Can only be built on [Desert] tiles <in [Hill] tiles>",
-            "Cannot be built on [resource] tiles",
-            "Gives a defensive bonus of [50]%",
-            "Pillaging this improvement yields approximately [+20 Gold]"
-        ]
-    },
-    {
-        "name": "Caer",
-        "uniqueTo": "Wales",
-        "terrainsCanBeBuiltOn": ["Hill"],
-        "gold": 3,
-        "production": 1,
-        "culture": 1,
-        "turnsToBuild": 7,
-        "techRequired": "Chivalry",
-        "uniques": [
-            "Gives a defensive bonus of [25]%",
-            "[+1 Culture] <after discovering [Acoustics]>",
-            "Cannot be built on [resource] tiles",
-            "Pillaging this improvement yields approximately [+20 Gold]"
-        ]
-    },
-    {
-        "name": "Motte and Bailey",
-        "uniqueTo": "Normandy",
-        "terrainsCanBeBuiltOn": ["Land"],
-        "food": 1,
-        "production": 1,
-        "turnsToBuild": 7,
-        "techRequired": "Engineering",
-        "uniques": [
-            "Gives a defensive bonus of [25]%",
-            "[+2 Culture] <after discovering [Flight]>",
-            "Only available <with [0] to [0] neighboring [Motte and Bailey] tiles>",
-            "Pillaging this improvement yields approximately [+20 Gold]"
-        ]
-    },
-    {
-        "name": "Kampong Ayer",
-        "uniqueTo": "Brunei",
-        "terrainsCanBeBuiltOn": ["Coast"],
-        "food": 1,
-        "gold": 1,
-        "culture": 1,
-        "turnsToBuild": 7,
-        "techRequired": "Optics",
-        "uniques": [
-            "[+1 Production] <after discovering [Navigation]>",
-            "[+1 Culture] <after discovering [Flight]>",
-            "Cannot be built on [resource] tiles",
-            "Pillaging this improvement yields approximately [+20 Gold]"
-        ]
-    },
-    {
-        "name": "Terrace farm",
-        "uniqueTo": "Inca",
-        "terrainsCanBeBuiltOn": ["Hill"],
-        "food": 1,
-        "turnsToBuild": 7,
-        "uniques": [
-            "[+1 Food] for each adjacent [Mountain]",
-            "[+1 Food] from [Fresh water] tiles <after discovering [Civil Service]>",
-            "[+1 Food] from [non-fresh water] tiles <after discovering [Fertilizer]>",
-            "Cannot be built on [resource] tiles",
-            "Pillaging this improvement yields approximately [+20 Gold]"
-        ],
-        "techRequired": "Construction",
-        "shortcutKey": "F"
-    },
+//    {
+//        "name": "Tipi",
+//        "uniqueTo": "Sioux",
+//        "terrainsCanBeBuiltOn": ["Plains"],
+//        "food": 1,
+//        "faith": 1,
+//        "turnsToBuild": 7,
+//        "techRequired": "Trapping",
+//        "uniques": [
+//            "Does not need removal of [Forest]",
+//            "Does not need removal of [Jungle]",
+//            "Must be next to [Luxury resource]",
+//            "[+1 Food] <after discovering [Civil Service]>",
+//            "[+1 Faith] <after discovering [Theology]>",
+//            "[+1 Culture] for each adjacent [City center]",
+//            "[+1 Gold] <in [River] tiles>",
+//            "Cannot be built on [Hill] tiles",
+//            "Can only be built to improve a resource <in [resource] tiles>",
+//            "Pillaging this improvement yields approximately [+20 Gold]"
+//        ]
+//    },
+//    {
+//        "name": "Kasbah",
+//        "uniqueTo": "Morocco",
+//        "terrainsCanBeBuiltOn": ["Desert","Flood plains","Hill"],
+//        "food": 2,
+//        "production": 1,
+//        "gold": 1,
+//        "turnsToBuild": 7,
+//        "techRequired": "Chivalry",
+//        "uniques": [
+//            "Can only be built on [Desert] tiles <in [Hill] tiles>",
+//            "Cannot be built on [resource] tiles",
+//            "Gives a defensive bonus of [50]%",
+//            "Pillaging this improvement yields approximately [+20 Gold]"
+//        ]
+//    },
+//    {
+//        "name": "Caer",
+//        "uniqueTo": "Wales",
+//        "terrainsCanBeBuiltOn": ["Hill"],
+//        "gold": 3,
+//        "production": 1,
+//        "culture": 1,
+//        "turnsToBuild": 7,
+//        "techRequired": "Chivalry",
+//        "uniques": [
+//            "Gives a defensive bonus of [25]%",
+//            "[+1 Culture] <after discovering [Acoustics]>",
+//            "Cannot be built on [resource] tiles",
+//            "Pillaging this improvement yields approximately [+20 Gold]"
+//        ]
+//    },
+//    {
+//        "name": "Motte and Bailey",
+//        "uniqueTo": "Normandy",
+//        "terrainsCanBeBuiltOn": ["Land"],
+//        "food": 1,
+//        "production": 1,
+//        "turnsToBuild": 7,
+//        "techRequired": "Engineering",
+//        "uniques": [
+//            "Gives a defensive bonus of [25]%",
+//            "[+2 Culture] <after discovering [Flight]>",
+//            "Only available <with [0] to [0] neighboring [Motte and Bailey] tiles>",
+//            "Pillaging this improvement yields approximately [+20 Gold]"
+//        ]
+//    },
+//    {
+//        "name": "Kampong Ayer",
+//        "uniqueTo": "Brunei",
+//        "terrainsCanBeBuiltOn": ["Coast"],
+//        "food": 1,
+//        "gold": 1,
+//        "culture": 1,
+//        "turnsToBuild": 7,
+//        "techRequired": "Optics",
+//        "uniques": [
+//            "[+1 Production] <after discovering [Navigation]>",
+//            "[+1 Culture] <after discovering [Flight]>",
+//            "Cannot be built on [resource] tiles",
+//            "Pillaging this improvement yields approximately [+20 Gold]"
+//        ]
+//    },
+//    {
+//        "name": "Terrace farm",
+//        "uniqueTo": "Inca",
+//        "terrainsCanBeBuiltOn": ["Hill"],
+//        "food": 1,
+//        "turnsToBuild": 7,
+//        "uniques": [
+//            "[+1 Food] for each adjacent [Mountain]",
+//            "[+1 Food] from [Fresh water] tiles <after discovering [Civil Service]>",
+//            "[+1 Food] from [non-fresh water] tiles <after discovering [Fertilizer]>",
+//            "Cannot be built on [resource] tiles",
+//            "Pillaging this improvement yields approximately [+20 Gold]"
+//        ],
+//        "techRequired": "Construction",
+//        "shortcutKey": "F"
+//    },
 
     // Unbuildable improvements
     {
