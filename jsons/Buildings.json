@@ -1010,10 +1010,29 @@
         "name": "Church",
         "faith": 2,
         //"requiredBuilding": "Shrine",
+		"uniques": [
+            //"[+25]% [Culture] [in all cities]",
+            "Comment [Has [1] Great Work of Art Slots]"
+        ],
         "maintenance": 2,
         "hurryCostModifier": 25,
         "requiredTech": "Philosophy"
     },
+    {
+        "name": "Church Great Art Slot",
+        "culture": 2,
+        "cost": 0,
+        "requiredResource": "Great Work of Art",
+        "uniques": [
+            "Great Work", "GW Art",
+            "Only available <in cities with a [Church]>",
+            "Provides [1] [Great Work of Art]",
+            "Instantly consumes [1] [Great Work of Art]",
+            "[+1 Culture] <in cities with a [Church Great Art Slot]>"
+        ]
+    },
+	
+	
 //    {
 //        "name": "Burial Tomb",
 //        "replaces": "Temple",
