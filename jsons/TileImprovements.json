@@ -613,7 +613,8 @@
         "uniques": [
             //"Gives a defensive bonus of [50]%",
             "[+1 Gold, +1 Culture] <after discovering [Flight]>",
-            "Must be next to [Luxury resource]",
+            //"Must be next to [Luxury resource]",
+			"Must be next to [Fresh water]",
             "Cannot be built on [resource] tiles",
             "Only available <with [0] to [0] neighboring [Este Villa] tiles>",
             "Pillaging this improvement yields approximately [+20 Gold]"
