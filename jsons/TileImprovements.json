@@ -689,6 +689,7 @@
         "uniqueTo": "House of Este",
         "terrainsCanBeBuiltOn": ["Marsh"],
         "food": 2,
+		"production": 1,
         "turnsToBuild": 7,
         "techRequired": "Agriculture",
         "uniques": [
