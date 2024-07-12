@@ -608,6 +608,7 @@
         "terrainsCanBeBuiltOn": ["Grassland"],
         "gold": 1,
         "culture": 4,
+		"happiness": 1,
         //"science": 2,
         "turnsToBuild": 7,
         "techRequired": "Chivalry",

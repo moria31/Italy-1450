@@ -683,6 +683,7 @@
         "name": "Sforza Barracks",
 		"replaces": "Barracks",
         "uniqueTo": "Duchy of Milan",
+		"happiness": 1,
         "hurryCostModifier": 25,
         "maintenance": 1,
         "uniques": [
