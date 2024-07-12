@@ -32,7 +32,7 @@
 			"Units ignore terrain costs when moving into any tile with Hills"
         ],
         "cities": [
-            "Chambéry","Torino","Geneva","Nizza","Aosta","Monaco","Cuneo","Ivrea","Biella","Vercelli",
+            "Chambéry","Turin","Geneva","Nizza","Aosta","Monaco","Cuneo","Ivrea","Biella","Vercelli",
             "Asti","Alba","Pinerolo","Chieri","Savigliano","Saluzzo"
         ],
         "spyNames": [
