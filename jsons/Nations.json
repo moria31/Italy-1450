@@ -98,7 +98,7 @@
 			"Starts with [Civil Service]"
         ],
         "cities": [
-            "Milan","Cremona","Pavia","Piacenza","Parma","Como","Monza","Vigevano","Lodi","Voghera","Tortona","Mortara",
+            "Milan","Cremona","Pavia","Parma","Piacenza","Como","Monza","Vigevano","Lodi","Voghera","Tortona","Mortara",
             "Pizzighettone","Varese"
         ],
         "spyNames": [
@@ -161,9 +161,9 @@
 			"Starts with [Metal Casting]"
         ],
         "cities": [
-        	"Napoli","Palermo","Messina","Catania","Ragusa","Trapani","Cagliari","Iglesias","Sassari","Oristano","Capua",
-		"Salerno","Foggia","Brindisi","Otranto","Catanzaro","L'Aquila","Chieti","Taranto","Cosenza","Potenza","Siracusa",
-		"Bari","Crotone","Torres"
+        	"Napoli","Palermo","Messina","Catania","Cagliari","Sassari","Oristano","Potenza","Cosenza",
+		"L'Aquila","Foggia","Bari","Taranto","Otranto","Salerno","Brindisi","Catanzaro","Chieti","Siracusa",
+		"Crotone","Torres","Ragusa","Trapani","Iglesias","Capua"
         ],
         "spyNames": [
             "Rodrigo","Esmeralda","Leon","Mathilda","Ramona","Señor X","Filippo","Serpiente","Garcia","El Lobo"
@@ -256,9 +256,9 @@
 			"Starts with [Theology]"
         ],
         "cities": [
-            "Vatican City","Benevento","Rieti","Viterbo","Perugia","Ascoli","Ancona","Urbino","Fermo",
+            "Vatican City","Benevento","Viterbo","Perugia","Ancona","Urbino","Bologna",
             "Rimini","Macerata","Forli","Pesaro","Ferrara","Latina","Frosinone","Pontecorvo","Arpino","Assisi",
-            "Terni","Arezzo","San Marino","Terracina","Narni","Spoleto"
+            "Terni","Arezzo","San Marino","Terracina","Narni","Spoleto","Rieti","Ascoli","Fermo"
         ],
         "spyNames": [
             "Flavius","Regula","Servius","Lucia","Cornelius","Licina","Canus","Serpens","Agrippa","Brutus"
@@ -289,9 +289,9 @@
 			"Starts with [Guilds]"
         ],
         "cities": [
-            "Venice","Treviso","Padova","Vicenza","Verona","Brescia","Bergamo","Belluno","Aquileia","Trieste","Pola",
-			"Zara","Spalato","Durazzo","Tessalonica","Limassol","Patras","Nicosia",
-            "Veroz","Ravenna","Negroponte","Athens","Burano","Leonessa","Cerigo","Corfu","Epirus","Zante"
+            "Venice","Treviso","Verona","Brescia","Pola","Ravenna","Zara","Spalato","Bergamo","Belluno","Aquileia",
+			"Padova","Vicenza","Trieste","Durazzo","Tessalonica","Limassol","Patras","Nicosia",
+            "Veroz","Negroponte","Athens","Burano","Leonessa","Cerigo","Corfu","Epirus","Zante"
         ],
         "spyNames": [
             "Gasparo","Giosafat","Ambrogio","Niccolo","Marino","Cesare","Francesco","Giovanni","Bertolome","Filomena"
@@ -464,6 +464,19 @@
         "uniques": [],
         "cities": ["Casale Monferrato"]
     },
+		{
+        "name": "Swiss Confederacy",
+        "adjective": ["Piombino"],
+        "cityStateType": "Mercantile",
+        "declaringWar": "We have wanted this for a LONG time. War it shall be.",
+        "attacked": "Very well, we will kick you back to the ancient era!",
+        "defeated": "This isn't how it is supposed to be!",
+        "outerColor": [0, 0, 0],
+        "innerColor": [179, 179, 179],
+        "uniques": [],
+        "cities": ["Berne"]
+    },
+	
 
     //Barbarian
     {
