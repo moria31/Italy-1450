@@ -466,7 +466,7 @@
     },
 		{
         "name": "Swiss Confederacy",
-        "adjective": ["Piombino"],
+        "adjective": ["Swiss"],
         "cityStateType": "Mercantile",
         "declaringWar": "We have wanted this for a LONG time. War it shall be.",
         "attacked": "Very well, we will kick you back to the ancient era!",
@@ -476,7 +476,18 @@
         "uniques": [],
         "cities": ["Berne"]
     },
-	
+		{
+        "name": "County of Gorizia",
+        "adjective": ["Gorizia"],
+        "cityStateType": "Mercantile",
+        "declaringWar": "We have wanted this for a LONG time. War it shall be.",
+        "attacked": "Very well, we will kick you back to the ancient era!",
+        "defeated": "This isn't how it is supposed to be!",
+        "outerColor": [0, 0, 0],
+        "innerColor": [179, 179, 179],
+        "uniques": [],
+        "cities": ["Gorizia"]
+    },	
 
     //Barbarian
     {
