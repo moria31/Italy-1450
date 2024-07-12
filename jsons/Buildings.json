@@ -218,6 +218,7 @@
         "science": 3,
         "gold": 3,
         "culture": 1,
+		"happiness": 25,
         "cityStrength": 2,
         "cost": 0,
         "uniques": [
